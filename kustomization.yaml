@@ -1,6 +1,8 @@
+---
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
+namespace: px-finagle
 resources:
   - kubernetes/namespace.yaml
   - kubernetes/finagle-client-deployment.yaml

@@ -3,12 +3,11 @@ kind: Service
 metadata:
   annotations:
     kompose.cmd: kompose convert -f ../docker/docker-compose.yml
-    kompose.version: 1.26.1 (a9d05d509)
+    kompose.version: 1.28.0 (c4137012e)
   creationTimestamp: null
   labels:
     io.kompose.service: finagle-server
   name: finagle-server
-  namespace: px-finagle
 spec:
   ports:
     - name: "9992"
